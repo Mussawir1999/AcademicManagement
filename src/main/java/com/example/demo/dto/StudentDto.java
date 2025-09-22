@@ -1,6 +1,5 @@
 package com.example.demo.dto;
 
-import com.example.demo.entity.Enrollment;
 import lombok.Data;
 
 import java.util.List;
@@ -12,6 +11,6 @@ public class StudentDto {
     private String firstName;
     private String lastName;
     private String email;
-    private List<Enrollment> enrollments;
+    private List<EnrollmentDto> enrollments;
 
 }

@@ -8,8 +8,8 @@ import lombok.Data;
 public class EnrollmentDto {
 
     private Long id;
-    private Student student;
-    private Course course;
+    private StudentDto student;
+    private CourseDto course;
     private String grade;
     private boolean completed = false;
 

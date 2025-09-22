@@ -1,7 +1,5 @@
 package com.example.demo.dto;
 
-import com.example.demo.entity.Course;
-import com.example.demo.entity.Enrollment;
 import lombok.Data;
 
 import java.util.List;
@@ -13,7 +11,7 @@ public class CourseDto {
     private String code;
     private String title;
     private int maxCapacity = 30;
-    private Set<Course> prerequisites;
-    private List<Enrollment> enrollments;
+    private Set<CourseDto> prerequisites;
+    private List<EnrollmentDto> enrollments;
 
 }
